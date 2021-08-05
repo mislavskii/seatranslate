@@ -1,0 +1,316 @@
+h1, h2, h3, h4, h5, h6, p, footer, body, a {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS";
+}
+html {
+	background-color: lightgoldenrodyellow;
+	background-image: url(../img/elephants_xs.jpg);
+	background-repeat: repeat;
+	background-size: 100px;
+	z-index: 100;
+}
+
+body {
+	max-width: 400px;
+	min-width: 280px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	padding: 5vh 5%;
+	letter-spacing: 2px;
+}
+
+h2 {
+	padding: 0.4em 0;
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+	text-align: center;
+	/* padding-bottom: 0.2em; */
+}
+
+h5 {
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+section, footer {
+	clear: left;
+}
+
+nav {
+	background-color: black;
+	border-bottom: solid white 1px;
+	position: sticky;
+	top: 0;
+	width: inherit;
+	z-index: 1;
+}
+
+nav a {
+	display: inline-block;
+	position: relative;
+	height: 1.4em;
+	width: auto;
+	padding: 0.5em 0.4em;
+	text-decoration: none;
+	text-align: center;
+	font-size: 4vw;
+	color: white;
+}
+
+@media screen and (min-width: 400px) {
+	nav a {
+		font-size: 1em;
+	}
+}
+
+nav a:active {background-color: gray;}
+
+nav a.current {
+	background-color: white;
+	color: black;
+}
+
+header {
+	height: 45vh;
+	background-image: url(../img/Long-tail_boat_burlesque.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	color: white;
+	position: relative;
+}
+
+header a {
+	color: white;
+}
+
+#muginhead {
+	width: 20%;
+	margin: 3% 1%;
+	margin-bottom: 0;
+	display: inline-block;
+	float: left;
+	border: solid white 1px;
+}
+
+#headname {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.headtext {
+	display: inline-block;
+	width: 70%;
+	margin: 3% 1%;
+	font-size: small;
+}
+
+.places {
+	width: 100%;
+	font-size: x-small;
+	position: absolute; bottom: 0;
+}
+
+.inter {
+	text-align: center;
+	margin: 0.4em 0;
+	margin-top: 0.2em;
+}
+
+.employment {
+	border: solid green 1px;
+}
+
+.job {
+	padding: 3% 2%;
+}
+
+.job:nth-child(odd) {
+	background-color: #F1F8E9;
+}
+
+.when {
+	text-align: center;
+	padding-bottom: 0.5em;
+	text-decoration: underline;
+}
+
+.trilingua {
+	text-align: center;
+	margin-top: 1%;
+	font-size: 7.9vw;
+}
+
+@media screen and (min-width: 400px) {
+	.trilingua {
+		font-size: 1.9em;
+	}
+}
+
+.trilingua img {
+	width: 98%;
+	opacity: 0.3;
+	border: solid green 3px;
+}
+
+.lang1, .lang2, .lang3 {
+	position: relative;
+	margin: 0 auto;
+}
+
+.lang {
+	position: absolute; top: 10%;
+	height: 60%;
+	width: 90%;
+	padding: 0 5%;
+	font-size: 1em;
+	color: #3a1812;
+	text-shadow: 2px 2px white;
+}
+
+.rate {
+	position: absolute; top: 63%;
+	width: 90%;
+	padding: 0 5%;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: bold;
+	color: #558B2F;
+	opacity: 0.3;
+}
+
+.rate:hover {opacity: 0.8}
+
+.about {
+	border: solid green 1px;
+	padding-top: 1%;
+}
+
+li {
+	padding-bottom: 0.5em;
+}
+
+#mug {
+	width: 30%;
+	padding: 1%;
+	display: block;
+	margin: 0 auto;
+}
+
+.info {
+	padding-top: 1%;
+	padding-right: 1%;
+}
+
+#name {
+	font-weight: bold;
+	font-size: x-large;
+	text-align: center;
+}
+
+.sample {
+
+	background-color: #3a1812;
+	color: white;
+	text-align: center;
+	padding: 0 1%;
+	padding-bottom: 5%;
+	overflow: auto;
+}
+
+.sample.lang1, .sample.lang2, .sample.lang3 {
+	margin-bottom: 5%;
+}
+.sample img {
+	width: 100%;
+}
+
+.sample a {
+	display: inline-block;
+}
+
+.sample h5 {
+	padding-top: 0.5em;
+}
+
+#more {
+	display: block;
+	margin: 0 auto;
+	color: white;
+	clear: both;
+}
+
+.left {
+	text-align: right;
+
+}
+
+.cvrow div {display: inline-block;}
+
+.cvrow .left {
+	width: 20%;
+	margin-right: 2%;
+}
+
+.cvrow .right {width: 70%;}
+
+.aux {
+	background-image: url(../img/IMG_5268_band.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5%;
+	padding-bottom: 2.5em;
+	text-shadow: 2px 2px white;
+	font-size: medium;
+}
+
+.aux h3 {
+	text-align: left;
+}
+
+.aux ul {
+	margin-bottom: 0;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+/* .sample p {
+	display: inline-block;
+} */
+
+.val {
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+.footer {
+	padding: 0.5em;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	position: sticky;
+	bottom: 0;
+}
+
+.footer a {
+	color: white;
+}
+
+.copy {
+	font-size: 0.7em;
+	padding-top: 0.5em;
+}

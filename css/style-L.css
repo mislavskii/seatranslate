@@ -1,0 +1,300 @@
+h1, h2, h3, p, footer, body {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	padding: 0.5em 0;
+}
+
+h3, h4, h5 {
+	text-align: inherit;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 1200px;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+}
+
+section, footer {
+	font-family: "Trebuchet MS";
+	clear: left;
+}
+
+nav {
+	background-color: black;
+	border-bottom: solid white 1px;
+	position: sticky;
+	top: 0;
+	width: inherit;
+	z-index: 1;
+}
+
+nav a {
+	display: inline-block;
+	position: relative;
+	/* height: 1.3em; */
+	padding: 0.5em 1em;
+	text-decoration: none;
+	text-align: center;
+	/* font-size: 2.2vh; */
+	color: white;
+}
+nav a:active {background-color: gray;}
+
+header {
+	height: 60vh;
+	background-image: url(../img/Long-tail_boat_burlesque.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 7vw;
+	padding-top: 9vh;
+	letter-spacing: 2px;
+}
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+#muginhead {
+	width: 12%;
+	margin: 3% 1%;
+	margin-bottom: 0;
+	display: inline-block;
+	float: left;
+	border: solid white;
+}
+
+.headtext {
+	display: inline-block;
+	width: 80%;
+	color: white;
+	margin: 3% 1%;
+	font-size: 2vh;
+}
+
+.places {
+	font-size: smaller;
+}
+
+.inter {
+	text-align: center;
+	margin: 0.5em 0;
+	font-size: 2vh;
+}
+
+.job {
+	padding: 1%;
+	position: relative;
+}
+
+.job div {
+	display: inline-block;
+	/* font-size: 90%; */
+}
+
+.when {
+	width: 30%;
+	text-align: right;
+	padding-right: 2%;
+	float: left;
+	/* position: absolute; top: 0; */
+}
+
+.what {
+	width: 60%;
+	text-align: left;
+}
+
+.trilingua {
+	text-align: center;
+	margin-top: 0.5%;
+	font-size: 2.7vw;
+}
+
+@media screen and (min-width: 1200px) {
+	.trilingua {
+		font-size: 2em;
+	}
+}
+
+.trilingua img {
+	width: 100%;
+	opacity: 0.3;
+	border: none;
+	border-radius: 0;
+}
+
+
+.lang1, .lang2, .lang3 {
+	display: inline-block;
+	position: relative;
+	width: 32%;
+	text-align: center;
+}
+
+.lang1 {
+	float: left;
+}
+
+.lang2 {
+	margin: auto;
+}
+
+.lang3 {
+	float: right;
+}
+
+
+.lang {
+	position: absolute; top: 7%;
+	height: 60%;
+	width: 90%;
+	padding: 0 5%;
+	font-size: 1em;
+	color: #3a1812;
+	text-shadow: 1px 1px white;
+	text-align: center;
+}
+
+.rate {
+	/* position: absolute; top: 60%; */
+	width: 90%;
+	padding: 0 5%;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	color: #558B2F;
+	opacity: 0.3;
+}
+
+.rate:hover{opacity: 0.8}
+
+.about {
+	border: none;
+}
+
+li {
+	padding-bottom: 0.5em;
+}
+
+#mug {
+	width: 15%;
+	padding: 2%;
+	display: inline-block;
+	float: left;
+}
+
+.info {
+	display: inline-block;
+	width: 80%;
+	padding-top: 1%;
+}
+
+#name {
+	font-weight: bold;
+	font-size: 3vh;
+	text-align: left;
+	padding-left: 1%
+}
+
+.sample {
+
+	background-color: #3a1812;
+	color: white;
+	text-align: center;
+	font-size: 2.2vh;
+	padding: 0 1%;
+	padding-bottom: 1%;
+	overflow: auto;
+}
+
+.sample img {
+	width: 100%;
+}
+
+.sample a {
+	display: inline-block;
+}
+
+.dip a {
+	width: 60%;
+}
+
+.record a {
+	width: 45%;
+}
+
+.cert a {
+	width: 30%;
+}
+
+#more {
+	display: block;
+	margin: 0 auto;
+	color: white;
+	clear: both;
+}
+
+.left {
+	text-align: right;
+
+}
+
+.cvrow div {display: inline-block;}
+
+.cvrow .left {
+	width: 20%;
+	margin-right: 2%;
+}
+
+.cvrow .right {width: 70%;}
+
+.aux {
+	background-image: url(../img/IMG_5268_band.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 2em;
+	padding-bottom: 3em;
+	text-shadow: 1px 1px white;
+}
+@media screen and (min-width: 800px) {
+	.aux {
+		font-size: larger;
+	}
+}
+
+.aux ul {
+	margin-bottom: 0;
+	text-shadow: 1px 1px black;
+}
+
+.footer {
+	padding: 0.5em;
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 5vh;
+	font-size: 2.2vh;
+	position: sticky;
+	bottom: 0;
+}
+
+.footer a {
+	color: white;
+}
+
+.copy {
+	font-size: small;
+	padding-top: 0.5em;
+}
